@@ -1,0 +1,8 @@
+export("genomicEBV.w.codata")
+export("compute_GL")
+export("compute_phitau") 
+export("scaleZ") 
+import("Matrix")
+importFrom("graphics", "plot")
+importFrom("stats", "Gamma", "glm", "lm", "var")
+S3method(summary, CodataGS)
